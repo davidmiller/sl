@@ -1,0 +1,12 @@
+---
+layout: topic
+title: Statistically Literate - Topics - Crime
+topic: Crime
+---
+Crime is falling
+
+[View a chart](/vis/crime.total.html)
+
+Violent Crime is rising
+
+[View a chart](/vis/violent.crime.total.html)
