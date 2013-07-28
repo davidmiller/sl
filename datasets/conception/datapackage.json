@@ -1,0 +1,64 @@
+{
+    name: "teen-conception-uk",
+    title: "Teenage Conception data for the UK",
+    licenses: [
+        {
+            id: "odc-pddl",
+            url: "http://opendatacommons.org/licenses/pddl/"
+        }
+    ],
+    keywords: [
+        "Population",
+        "Conception",
+        "Abortion",
+        "Pregnancy"
+    ],
+    version: "2011",
+    last_updated: "2013-07-28",
+    sources: [
+        {
+            name: "Office for National Statistics - Conception Statistics, England and Wales",
+            web: "http://www.ons.gov.uk/ons/publications/re-reference-tables.html?edition=tcm%3A77-294336"
+        }
+    ],
+    resources: [
+        {
+            path: "data/under.16.csv",
+            schema: {
+                fields: [
+                    {
+                        id: "year",
+                        type: "date",
+                        fulltype: "date/year"
+                    },
+                    {
+                        id: "total.conceptions",
+                        type: "number"
+                    },
+                    {
+                        id: "leading.to.maternities",
+                        type: "number",
+                    },
+                    {
+                        id: "aborted",
+                        type: "number"
+                    },
+                    {
+                        id: "per.1k",
+                        type: "number"
+                    },
+                    {
+                        id: "percentage.aborted",
+                        type: "number",
+                        format: "percentage"
+                    },
+                    {
+                        id: "percentage",
+                        type: "number",
+                        format: "percentage"
+                    }
+                ]
+            }
+        }
+    ]
+}
