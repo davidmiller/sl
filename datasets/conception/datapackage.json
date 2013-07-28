@@ -59,6 +59,272 @@
                     }
                 ]
             }
+        },
+        {
+            path: "data/under.14.csv",
+            schema: {
+                fields: [
+                    {
+                        id: "year",
+                        type: "date",
+                        fulltype: "date/year"
+                    },
+                    {
+                        id: "total.conceptions",
+                        type: "number"
+                    },
+                    {
+                        id: "leading.to.maternities",
+                        type: "number",
+                    },
+                    {
+                        id: "aborted",
+                        type: "number"
+                    },
+                    {
+                        id: "per.1k",
+                        type: "number"
+                    },
+                    {
+                        id: "percentage.aborted",
+                        type: "number",
+                        format: "percentage"
+                    },
+                    {
+                        id: "percentage",
+                        type: "number",
+                        format: "percentage"
+                    }
+                ]
+            }
+        },
+        {
+            path: "data/age.14.csv",
+            schema: {
+                fields: [
+                    {
+                        id: "year",
+                        type: "date",
+                        fulltype: "date/year"
+                    },
+                    {
+                        id: "total.conceptions",
+                        type: "number"
+                    },
+                    {
+                        id: "leading.to.maternities",
+                        type: "number",
+                    },
+                    {
+                        id: "aborted",
+                        type: "number"
+                    },
+                    {
+                        id: "per.1k",
+                        type: "number"
+                    },
+                    {
+                        id: "percentage.aborted",
+                        type: "number",
+                        format: "percentage"
+                    },
+                    {
+                        id: "percentage",
+                        type: "number",
+                        format: "percentage"
+                    }
+                ]
+            }
+        },
+        {
+            path: "data/age.15.csv",
+            schema: {
+                fields: [
+                    {
+                        id: "year",
+                        type: "date",
+                        fulltype: "date/year"
+                    },
+                    {
+                        id: "total.conceptions",
+                        type: "number"
+                    },
+                    {
+                        id: "leading.to.maternities",
+                        type: "number",
+                    },
+                    {
+                        id: "aborted",
+                        type: "number"
+                    },
+                    {
+                        id: "per.1k",
+                        type: "number"
+                    },
+                    {
+                        id: "percentage.aborted",
+                        type: "number",
+                        format: "percentage"
+                    },
+                    {
+                        id: "percentage",
+                        type: "number",
+                        format: "percentage"
+                    }
+                ]
+            }
+        },
+        {
+            path: "data/age.16.csv",
+            schema: {
+                fields: [
+                    {
+                        id: "year",
+                        type: "date",
+                        fulltype: "date/year"
+                    },
+                    {
+                        id: "total.conceptions",
+                        type: "number"
+                    },
+                    {
+                        id: "leading.to.maternities",
+                        type: "number",
+                    },
+                    {
+                        id: "aborted",
+                        type: "number"
+                    },
+                    {
+                        id: "per.1k",
+                        type: "number"
+                    },
+                    {
+                        id: "percentage.aborted",
+                        type: "number",
+                        format: "percentage"
+                    },
+                    {
+                        id: "percentage",
+                        type: "number",
+                        format: "percentage"
+                    }
+                ]
+            }
+        },
+        {
+            path: "data/age.17.csv",
+            schema: {
+                fields: [
+                    {
+                        id: "year",
+                        type: "date",
+                        fulltype: "date/year"
+                    },
+                    {
+                        id: "total.conceptions",
+                        type: "number"
+                    },
+                    {
+                        id: "leading.to.maternities",
+                        type: "number",
+                    },
+                    {
+                        id: "aborted",
+                        type: "number"
+                    },
+                    {
+                        id: "per.1k",
+                        type: "number"
+                    },
+                    {
+                        id: "percentage.aborted",
+                        type: "number",
+                        format: "percentage"
+                    },
+                    {
+                        id: "percentage",
+                        type: "number",
+                        format: "percentage"
+                    }
+                ]
+            }
+        },        {
+            path: "data/age.18.csv",
+            schema: {
+                fields: [
+                    {
+                        id: "year",
+                        type: "date",
+                        fulltype: "date/year"
+                    },
+                    {
+                        id: "total.conceptions",
+                        type: "number"
+                    },
+                    {
+                        id: "leading.to.maternities",
+                        type: "number",
+                    },
+                    {
+                        id: "aborted",
+                        type: "number"
+                    },
+                    {
+                        id: "per.1k",
+                        type: "number"
+                    },
+                    {
+                        id: "percentage.aborted",
+                        type: "number",
+                        format: "percentage"
+                    },
+                    {
+                        id: "percentage",
+                        type: "number",
+                        format: "percentage"
+                    }
+                ]
+            }
+        },
+        {
+            path: "data/age.19.csv",
+            schema: {
+                fields: [
+                    {
+                        id: "year",
+                        type: "date",
+                        fulltype: "date/year"
+                    },
+                    {
+                        id: "total.conceptions",
+                        type: "number"
+                    },
+                    {
+                        id: "leading.to.maternities",
+                        type: "number",
+                    },
+                    {
+                        id: "aborted",
+                        type: "number"
+                    },
+                    {
+                        id: "per.1k",
+                        type: "number"
+                    },
+                    {
+                        id: "percentage.aborted",
+                        type: "number",
+                        format: "percentage"
+                    },
+                    {
+                        id: "percentage",
+                        type: "number",
+                        format: "percentage"
+                    }
+                ]
+            }
         }
+
     ]
 }

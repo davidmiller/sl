@@ -1,0 +1,57 @@
+{
+    name: "csew",
+    title: "Crime Survey for England and Wales",
+    licenses: [
+        {
+            id: "odc-pddl",
+            url: "http://opendatacommons.org/licenses/pddl/"
+        }
+    ],
+    keywords: [
+        "Crime",
+    ],
+    version: "2012",
+    last_updated: "2013-07-28",
+    sources: [
+        {
+            name: "Office for National Statistics - Crime in England and Wales, Year Ending December 2012",
+            web: "http://www.ons.gov.uk/ons/rel/crime-stats/crime-statistics/period-ending-december-2012/stb-crime-in-england-and-wales--year-ending-december-2012.html"
+        }
+    ],
+    resources: [
+        {
+            path: "data/csew.total.csv",
+            schema: {
+                fields: [
+                    {
+                        id: "year",
+                        type: "date",
+                    },
+                    {
+                        id: "csew.crime",
+                        type: "number"
+                    },
+                    {
+                        id: "recorded.crime",
+                        type: "number",
+                    },
+                ]
+            }
+        },
+        {
+            path: "data/csew.violent.crimes.csv",
+            schema: {
+                fields: [
+                    {
+                        id: "year",
+                        type: "date"
+                    },
+                    {
+                        id: "crimes",
+                        type: "number"
+                    }
+                ]
+            }
+        }
+    ]
+}
