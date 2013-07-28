@@ -1,0 +1,44 @@
+---
+layout: default
+title: Statistically Literate
+---
+
+
+<div>
+  <h2>What is this and why are you doing it?</h2>
+  <p>
+    According to a recent
+    <a href="http://www.ipsos-mori.com/researchpublications/researcharchive/3188/Perceptions-are-not-reality-the-top-10-we-get-wrong.aspx#_edn1">survey</a> we are sepctacularly
+    bad at having basic ballpark figures in our society.
+  </p>
+  <p>
+    It is our assertion that the more accurately people understand what reality looks like,
+    the more empowered they are to contribute constructively to political debate.
+  </p>
+  <p>
+    Accordingly, SL aims to help people make sure that their perceptions of our society
+    are aligned with the best available information.
+  </p>
+</div>
+
+<div>
+  <h2>Topics</h2>
+  <ul>
+    {% for topic in site.categories.topics %}
+      <li>
+        <a href="{{ topic.url }}">
+          {{ topic.topic }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<!-- <div id="home"> -->
+<!--   <h2>Blog Posts</h2> -->
+<!--   <ul class="posts"> -->
+<!--     {% for post in site.posts %} -->
+<!--       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li> -->
+<!--     {% endfor %} -->
+<!--   </ul> -->
+<!-- </div> -->
