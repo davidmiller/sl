@@ -1,0 +1,10 @@
+---
+layout: topic
+title: Statistically Literate - Topics - Benefits
+topic: Benefits
+---
+Which do you think we spend more on, Job Seekers Allowance, or Pensions?
+
+[Check out the answers](http://wheredoesmymoneygo.org/bubbletree-map.html#/~/total/helping-others)
+
+[Check out the answer from GDS' Gist thing](http://www.gist.cabinetoffice.gov.uk/qds/q1-2012-13/dwp/spend-by-type-of-budget/expenditure-managed-by-the-organisation-ame/)
